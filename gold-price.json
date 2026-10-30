@@ -1,5 +1,32 @@
 {
-  "valid": false,
-  "stale": true,
-  "message": "Feed not initialized yet"
+    "version": 1,
+    "asset": "IR_GOLD_18K",
+    "unit": "toman_per_gram",
+    "valid": true,
+    "stale": false,
+    "price": 26223500,
+    "primary_source": "tgju",
+    "published_at": "2026-10-30T17:59:44+03:30",
+    "published_unix": 1793370584,
+    "sources": {
+        "tgju": {
+            "success": true,
+            "price": 26223500,
+            "source_date": "0",
+            "source_time": "۷ آبان",
+            "error": null
+        },
+        "tala": {
+            "success": true,
+            "price": 25586823,
+            "error": null
+        }
+    },
+    "validation": {
+        "secondary_difference_percent": 2.4279000000000002,
+        "warning_threshold_percent": 1,
+        "warnings": [
+            "Secondary source differs from TGJU by 2.428% (threshold 1.000%)"
+        ]
+    }
 }
