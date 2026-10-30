@@ -6,15 +6,15 @@
     "stale": true,
     "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-10-30T18:13:55+03:30",
-    "published_unix": 1793371435,
+    "published_at": "2026-10-30T18:15:49+03:30",
+    "published_unix": 1793371549,
     "sources": {
         "tgju": {
             "success": true,
             "price": 26223500,
             "source_timestamp": "2026-10-29 00:00:00",
             "source_unix": 1793219400,
-            "source_age_minutes": 2533.9200000000001,
+            "source_age_minutes": 2535.8200000000002,
             "stale": true,
             "error": null
         },
@@ -29,7 +29,7 @@
         "warning_threshold_percent": 1,
         "tgju_max_age_minutes": 30,
         "warnings": [
-            "TGJU primary source is stale (age 2533.92 min; max 30 min)",
+            "TGJU primary source is stale (age 2535.82 min; max 30 min)",
             "Secondary source differs from TGJU by 2.049% (threshold 1.000%)"
         ]
     }
