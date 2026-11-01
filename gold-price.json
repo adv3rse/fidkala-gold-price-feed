@@ -6,8 +6,8 @@
     "stale": false,
     "price": 25233100,
     "primary_source": "tgju",
-    "published_at": "2026-11-01T09:36:04+03:30",
-    "published_unix": 1793513164,
+    "published_at": "2026-11-01T09:38:03+03:30",
+    "published_unix": 1793513283,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": false,
@@ -20,7 +20,7 @@
             "source_timestamp": "2026-10-31 00:00:00",
             "source_time": "۹ آبان",
             "source_unix": 1793392200,
-            "source_age_minutes": 2016.0699999999999,
+            "source_age_minutes": 2018.05,
             "max_age_minutes": 4320,
             "change_percent": 0,
             "stale": false,
@@ -28,18 +28,18 @@
         },
         "tala": {
             "success": true,
-            "price": 25621451,
+            "price": 25646844,
             "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": 1.5157,
+        "secondary_difference_percent": 1.6132,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
         "warnings": [
-            "Market is not expected live; using latest TGJU close (age 2016.07 min)",
-            "Secondary source differs from TGJU by 1.516% (threshold 1.000%)"
+            "Market is not expected live; using latest TGJU close (age 2018.05 min)",
+            "Secondary source differs from TGJU by 1.613% (threshold 1.000%)"
         ]
     }
 }
