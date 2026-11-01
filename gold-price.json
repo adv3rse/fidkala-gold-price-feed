@@ -2,12 +2,12 @@
     "version": 3,
     "asset": "IR_GOLD_18K",
     "unit": "toman_per_gram",
-    "valid": true,
-    "stale": false,
-    "price": 25646600,
+    "valid": false,
+    "stale": true,
+    "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-01T11:02:03+03:30",
-    "published_unix": 1793518323,
+    "published_at": "2026-11-01T11:04:03+03:30",
+    "published_unix": 1793518443,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -16,27 +16,30 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 25646600,
-            "source_timestamp": "2026-11-01 11:01:37",
-            "source_time": "۱۱:۰۱:۳۷",
-            "source_unix": 1793518297,
-            "source_age_minutes": 0.42999999999999999,
+            "price": 25233100,
+            "source_timestamp": "2026-10-31 00:00:00",
+            "source_time": "۹ آبان",
+            "source_unix": 1793392200,
+            "source_age_minutes": 2104.0500000000002,
             "max_age_minutes": 30,
-            "change_percent": 1.6399999999999999,
-            "stale": false,
+            "change_percent": 0,
+            "stale": true,
             "error": null
         },
         "tala": {
             "success": true,
-            "price": 25579898,
+            "price": 25586823,
             "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.2601,
+        "secondary_difference_percent": 1.3824000000000001,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
-        "warnings": []
+        "warnings": [
+            "TGJU quote age 2104.05 min exceeds allowed 30 min for live mode",
+            "Secondary source differs from TGJU by 1.382% (threshold 1.000%)"
+        ]
     }
 }
