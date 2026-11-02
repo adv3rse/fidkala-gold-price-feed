@@ -2,12 +2,12 @@
     "version": 3,
     "asset": "IR_GOLD_18K",
     "unit": "toman_per_gram",
-    "valid": true,
-    "stale": false,
-    "price": 25813300,
+    "valid": false,
+    "stale": true,
+    "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-02T20:28:03+03:30",
-    "published_unix": 1793638683,
+    "published_at": "2026-11-02T20:30:04+03:30",
+    "published_unix": 1793638804,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -20,10 +20,10 @@
             "source_timestamp": "2026-11-02 19:59:56",
             "source_time": "۱۹:۵۹:۵۶",
             "source_unix": 1793636996,
-            "source_age_minutes": 28.120000000000001,
+            "source_age_minutes": 30.129999999999999,
             "max_age_minutes": 30,
             "change_percent": 0.92000000000000004,
-            "stale": false,
+            "stale": true,
             "error": null
         },
         "tala": {
@@ -37,6 +37,8 @@
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
-        "warnings": []
+        "warnings": [
+            "TGJU quote age 30.13 min exceeds allowed 30 min for live mode"
+        ]
     }
 }
