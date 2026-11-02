@@ -4,10 +4,10 @@
     "unit": "toman_per_gram",
     "valid": true,
     "stale": false,
-    "price": 25852100,
+    "price": 25842600,
     "primary_source": "tgju",
-    "published_at": "2026-11-02T11:40:05+03:30",
-    "published_unix": 1793607005,
+    "published_at": "2026-11-02T11:42:03+03:30",
+    "published_unix": 1793607123,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -16,27 +16,29 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 25852100,
-            "source_timestamp": "2026-11-02 11:39:32",
-            "source_time": "۱۱:۳۹:۳۲",
-            "source_unix": 1793606972,
-            "source_age_minutes": 0.53000000000000003,
+            "price": 25842600,
+            "source_timestamp": "2026-11-02 11:41:22",
+            "source_time": "۱۱:۴۱:۲۲",
+            "source_unix": 1793607082,
+            "source_age_minutes": 0.68000000000000005,
             "max_age_minutes": 30,
-            "change_percent": 1.0700000000000001,
+            "change_percent": 1.03,
             "stale": false,
             "error": null
         },
         "tala": {
-            "success": true,
-            "price": 25773812,
-            "error": null
+            "success": false,
+            "price": null,
+            "error": "Parsed tala.ir price is invalid"
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.30280000000000001,
+        "secondary_difference_percent": null,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
-        "warnings": []
+        "warnings": [
+            "tala.ir secondary source unavailable"
+        ]
     }
 }
