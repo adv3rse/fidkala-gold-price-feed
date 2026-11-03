@@ -4,10 +4,10 @@
     "unit": "toman_per_gram",
     "valid": true,
     "stale": false,
-    "price": 25456400,
+    "price": 25509500,
     "primary_source": "tgju",
-    "published_at": "2026-11-04T01:32:03+03:30",
-    "published_unix": 1793743323,
+    "published_at": "2026-11-04T01:34:03+03:30",
+    "published_unix": 1793743443,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": false,
@@ -16,13 +16,13 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 25456400,
-            "source_timestamp": "2026-11-03 17:33:42",
-            "source_time": "۱۷:۳۳:۴۲",
-            "source_unix": 1793714622,
-            "source_age_minutes": 478.35000000000002,
+            "price": 25509500,
+            "source_timestamp": "2026-11-03 00:00:00",
+            "source_time": "۱۲ آبان",
+            "source_unix": 1793651400,
+            "source_age_minutes": 1534.05,
             "max_age_minutes": 4320,
-            "change_percent": 1.3999999999999999,
+            "change_percent": 0,
             "stale": false,
             "error": null
         },
@@ -33,12 +33,12 @@
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.33100000000000002,
+        "secondary_difference_percent": 0.53849999999999998,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
         "warnings": [
-            "Market is not expected live; using latest TGJU close (age 478.35 min)"
+            "Market is not expected live; using latest TGJU close (age 1534.05 min)"
         ]
     }
 }
