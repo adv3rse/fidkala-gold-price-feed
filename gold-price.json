@@ -6,8 +6,8 @@
     "stale": true,
     "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-04T10:52:03+03:30",
-    "published_unix": 1793776923,
+    "published_at": "2026-11-04T10:54:03+03:30",
+    "published_unix": 1793777043,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -20,26 +20,25 @@
             "source_timestamp": "2026-11-03 00:00:00",
             "source_time": "۱۲ آبان",
             "source_unix": 1793651400,
-            "source_age_minutes": 2092.0500000000002,
+            "source_age_minutes": 2094.0500000000002,
             "max_age_minutes": 30,
             "change_percent": 0,
             "stale": true,
             "error": null
         },
         "tala": {
-            "success": false,
-            "price": null,
-            "error": "Could not find \"آخرین قیمت\" heading"
+            "success": true,
+            "price": 25614525,
+            "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": null,
+        "secondary_difference_percent": 0.40999999999999998,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
         "warnings": [
-            "TGJU quote age 2092.05 min exceeds allowed 30 min for live mode",
-            "tala.ir secondary source unavailable"
+            "TGJU quote age 2094.05 min exceeds allowed 30 min for live mode"
         ]
     }
 }
