@@ -4,10 +4,10 @@
     "unit": "toman_per_gram",
     "valid": true,
     "stale": false,
-    "price": 25854400,
+    "price": 25854100,
     "primary_source": "tgju",
-    "published_at": "2026-11-04T12:22:04+03:30",
-    "published_unix": 1793782324,
+    "published_at": "2026-11-04T12:24:05+03:30",
+    "published_unix": 1793782445,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -16,29 +16,27 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 25854400,
-            "source_timestamp": "2026-11-04 12:21:35",
-            "source_time": "۱۲:۲۱:۳۵",
-            "source_unix": 1793782295,
-            "source_age_minutes": 0.47999999999999998,
+            "price": 25854100,
+            "source_timestamp": "2026-11-04 12:23:26",
+            "source_time": "۱۲:۲۳:۲۶",
+            "source_unix": 1793782406,
+            "source_age_minutes": 0.63,
             "max_age_minutes": 30,
             "change_percent": 1.3500000000000001,
             "stale": false,
             "error": null
         },
         "tala": {
-            "success": false,
-            "price": null,
-            "error": "Could not find \"آخرین قیمت\" heading"
+            "success": true,
+            "price": 25787663,
+            "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": null,
+        "secondary_difference_percent": 0.25700000000000001,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
-        "warnings": [
-            "tala.ir secondary source unavailable"
-        ]
+        "warnings": []
     }
 }
