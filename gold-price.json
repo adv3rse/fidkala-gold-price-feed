@@ -2,38 +2,38 @@
     "version": 3,
     "asset": "IR_GOLD_18K",
     "unit": "toman_per_gram",
-    "valid": true,
-    "stale": false,
-    "price": 25652400,
+    "valid": false,
+    "stale": true,
+    "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-09T12:26:07+03:30",
-    "published_unix": 1794214567,
+    "published_at": "2026-11-09T12:28:14+03:30",
+    "published_unix": 1794214694,
     "market": {
         "timezone": "Asia/Tehran",
-        "expected_live": true,
-        "freshness_mode": "live"
+        "expected_live": null,
+        "freshness_mode": null
     },
     "sources": {
         "tgju": {
-            "success": true,
-            "price": 25652400,
-            "source_timestamp": "2026-11-09 12:24:55",
-            "source_time": "۱۲:۲۴:۵۵",
-            "source_unix": 1794214495,
-            "source_age_minutes": 1.1799999999999999,
-            "max_age_minutes": 30,
-            "change_percent": 0.93000000000000005,
+            "success": false,
+            "price": null,
+            "source_timestamp": null,
+            "source_time": null,
+            "source_unix": null,
+            "source_age_minutes": null,
+            "max_age_minutes": null,
+            "change_percent": null,
             "stale": false,
-            "error": null
+            "error": "cURL error 28: Connection timed out after 10002 milliseconds"
         },
         "tala": {
             "success": true,
-            "price": 25593749,
+            "price": 25600674,
             "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.2286,
+        "secondary_difference_percent": null,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
