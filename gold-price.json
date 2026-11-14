@@ -2,38 +2,38 @@
     "version": 3,
     "asset": "IR_GOLD_18K",
     "unit": "toman_per_gram",
-    "valid": true,
-    "stale": false,
-    "price": 24950800,
+    "valid": false,
+    "stale": true,
+    "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-14T15:24:04+03:30",
-    "published_unix": 1794657244,
+    "published_at": "2026-11-14T15:26:05+03:30",
+    "published_unix": 1794657365,
     "market": {
         "timezone": "Asia/Tehran",
-        "expected_live": true,
-        "freshness_mode": "live"
+        "expected_live": null,
+        "freshness_mode": null
     },
     "sources": {
         "tgju": {
-            "success": true,
-            "price": 24950800,
-            "source_timestamp": "2026-11-14 15:23:23",
-            "source_time": "۱۵:۲۳:۲۳",
-            "source_unix": 1794657203,
-            "source_age_minutes": 0.68000000000000005,
-            "max_age_minutes": 30,
-            "change_percent": 0.34999999999999998,
+            "success": false,
+            "price": null,
+            "source_timestamp": null,
+            "source_time": null,
+            "source_unix": null,
+            "source_age_minutes": null,
+            "max_age_minutes": null,
+            "change_percent": null,
             "stale": false,
-            "error": null
+            "error": "Invalid JSON from TGJU"
         },
         "tala": {
             "success": true,
-            "price": 24894270,
+            "price": 24887345,
             "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.2266,
+        "secondary_difference_percent": null,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
