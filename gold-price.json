@@ -6,8 +6,8 @@
     "stale": true,
     "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-15T12:32:16+03:30",
-    "published_unix": 1794733336,
+    "published_at": "2026-11-15T12:34:15+03:30",
+    "published_unix": 1794733455,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": null,
@@ -24,11 +24,11 @@
             "max_age_minutes": null,
             "change_percent": null,
             "stale": false,
-            "error": "cURL error 28: Operation timed out after 12002 milliseconds with 0 bytes received"
+            "error": "cURL error 28: Operation timed out after 12000 milliseconds with 15927 bytes received"
         },
         "tala": {
             "success": true,
-            "price": 24582622,
+            "price": 24575696,
             "error": null
         }
     },
