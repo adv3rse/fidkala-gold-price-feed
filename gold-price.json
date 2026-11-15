@@ -6,39 +6,37 @@
     "stale": true,
     "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-15T10:26:04+03:30",
-    "published_unix": 1794725764,
+    "published_at": "2026-11-15T10:30:18+03:30",
+    "published_unix": 1794726018,
     "market": {
         "timezone": "Asia/Tehran",
-        "expected_live": true,
-        "freshness_mode": "live"
+        "expected_live": null,
+        "freshness_mode": null
     },
     "sources": {
         "tgju": {
-            "success": true,
-            "price": 24794500,
-            "source_timestamp": "2026-11-14 00:00:00",
-            "source_time": "۲۳ آبان",
-            "source_unix": 1794601800,
-            "source_age_minutes": 2066.0700000000002,
-            "max_age_minutes": 30,
-            "change_percent": 0,
-            "stale": true,
-            "error": null
+            "success": false,
+            "price": null,
+            "source_timestamp": null,
+            "source_time": null,
+            "source_unix": null,
+            "source_age_minutes": null,
+            "max_age_minutes": null,
+            "change_percent": null,
+            "stale": false,
+            "error": "cURL error 28: Operation timed out after 12002 milliseconds with 0 bytes received"
         },
         "tala": {
             "success": true,
-            "price": 24762685,
+            "price": 24769611,
             "error": null
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.1283,
+        "secondary_difference_percent": null,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
-        "warnings": [
-            "TGJU quote age 2066.07 min exceeds allowed 30 min for live mode"
-        ]
+        "warnings": []
     }
 }
