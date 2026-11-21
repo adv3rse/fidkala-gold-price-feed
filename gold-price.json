@@ -4,10 +4,10 @@
     "unit": "toman_per_gram",
     "valid": true,
     "stale": false,
-    "price": 23118600,
+    "price": 23124100,
     "primary_source": "tgju",
-    "published_at": "2026-11-21T17:04:04+03:30",
-    "published_unix": 1795268044,
+    "published_at": "2026-11-21T17:06:05+03:30",
+    "published_unix": 1795268165,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -16,13 +16,13 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 23118600,
-            "source_timestamp": "2026-11-21 17:03:45",
-            "source_time": "۱۷:۰۳:۴۵",
-            "source_unix": 1795268025,
-            "source_age_minutes": 0.32000000000000001,
+            "price": 23124100,
+            "source_timestamp": "2026-11-21 17:05:29",
+            "source_time": "۱۷:۰۵:۲۹",
+            "source_unix": 1795268129,
+            "source_age_minutes": 0.59999999999999998,
             "max_age_minutes": 30,
-            "change_percent": 5.0499999999999998,
+            "change_percent": 5.0300000000000002,
             "stale": false,
             "error": null
         },
@@ -33,7 +33,7 @@
         }
     },
     "validation": {
-        "secondary_difference_percent": 0.068099999999999994,
+        "secondary_difference_percent": 0.091800000000000007,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
