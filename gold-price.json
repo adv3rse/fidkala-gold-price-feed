@@ -4,10 +4,10 @@
     "unit": "toman_per_gram",
     "valid": true,
     "stale": false,
-    "price": 24089100,
+    "price": 24088100,
     "primary_source": "tgju",
-    "published_at": "2026-11-23T19:32:05+03:30",
-    "published_unix": 1795449725,
+    "published_at": "2026-11-23T19:34:04+03:30",
+    "published_unix": 1795449844,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": true,
@@ -16,13 +16,13 @@
     "sources": {
         "tgju": {
             "success": true,
-            "price": 24089100,
-            "source_timestamp": "2026-11-23 19:31:30",
-            "source_time": "۱۹:۳۱:۳۰",
-            "source_unix": 1795449690,
-            "source_age_minutes": 0.57999999999999996,
+            "price": 24088100,
+            "source_timestamp": "2026-11-23 19:33:22",
+            "source_time": "۱۹:۳۳:۲۲",
+            "source_unix": 1795449802,
+            "source_age_minutes": 0.69999999999999996,
             "max_age_minutes": 30,
-            "change_percent": 2.6899999999999999,
+            "change_percent": 2.6800000000000002,
             "stale": false,
             "error": null
         },
@@ -33,12 +33,12 @@
         }
     },
     "validation": {
-        "secondary_difference_percent": 3.0726,
+        "secondary_difference_percent": 3.0766,
         "warning_threshold_percent": 1,
         "live_max_age_minutes": 30,
         "closed_max_age_minutes": 4320,
         "warnings": [
-            "Secondary source differs from TGJU by 3.073% (threshold 1.000%)"
+            "Secondary source differs from TGJU by 3.077% (threshold 1.000%)"
         ]
     }
 }
