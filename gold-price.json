@@ -6,8 +6,8 @@
     "stale": true,
     "price": null,
     "primary_source": "tgju",
-    "published_at": "2026-11-24T14:18:15+03:30",
-    "published_unix": 1795517295,
+    "published_at": "2026-11-24T14:20:15+03:30",
+    "published_unix": 1795517415,
     "market": {
         "timezone": "Asia/Tehran",
         "expected_live": null,
@@ -28,7 +28,7 @@
         },
         "tala": {
             "success": true,
-            "price": 25817674,
+            "price": 25789972,
             "error": null
         }
     },
